@@ -5,6 +5,7 @@ import {useDropzone,} from 'react-dropzone';
 import {CircleArrowDown, RocketIcon,} from 'lucide-react';
 
 export const FileUploader = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const onDrop = useCallback((acceptedFiles: File[]) => {
   }, []);
   const drop = useDropzone({onDrop,});
